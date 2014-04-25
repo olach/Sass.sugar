@@ -8,6 +8,7 @@ This Sugar is incomplete, but it's better than nothing. Here is what is currentl
 * CSS (plain and simple) - this is inherited from the default CSS Sugar
 * @include selector
 * @mixin definition
+* @extend directive
 * @warn directive
 * @debug directive
 * @if @else if @else @for @while statements
@@ -17,6 +18,7 @@ This Sugar is incomplete, but it's better than nothing. Here is what is currentl
 * Nested selectors (only up to 5 levels deep, and only root level selectors show up in the navigator ATM)
 
 ### Changelog
+- 2014-04-25: Added @extend directive
 - 2014-04-25: Forked from [github.com/sfcgeorge/Sass.sugar](https://github.com/sfcgeorge/Sass.sugar)
 
 ## Installation

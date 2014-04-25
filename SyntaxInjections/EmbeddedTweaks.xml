@@ -3,6 +3,7 @@
 <injections>
 	<injection name="injections.properties.css.scss" selector="scss property-list.block.css" action="insert-after-children">
 		<include syntax="language-root.css.scss" collection="at-rule-include"/>
+		<include syntax="language-root.css.scss" collection="at-rule-extend"/>
 		<include syntax="language-root.css.scss" collection="at-rule-warn"/>
 		<include syntax="language-root.css.scss" collection="at-rule-debug"/>
 	</injection>
@@ -56,6 +57,7 @@
 				<include syntax="language-root.css" collection="comments"/>
 				<include syntax="language-root.css" collection="properties"/>
 				<include syntax="language-root.css.scss" collection="at-rule-include"/>
+				<include syntax="language-root.css.scss" collection="at-rule-extend"/>
 				<include syntax="language-root.css.scss" collection="at-rule-warn"/>
 				<include syntax="language-root.css.scss" collection="at-rule-debug"/>
 				<zone name="property-list.block.css">
@@ -71,6 +73,7 @@
 						<include syntax="language-root.css" collection="comments"/>
 						<include syntax="language-root.css" collection="properties"/>
 						<include syntax="language-root.css.scss" collection="at-rule-include"/>
+						<include syntax="language-root.css.scss" collection="at-rule-extend"/>
 						<include syntax="language-root.css.scss" collection="at-rule-warn"/>
 						<include syntax="language-root.css.scss" collection="at-rule-debug"/>
 						<zone name="property-list.block.css">
@@ -86,6 +89,7 @@
 								<include syntax="language-root.css" collection="comments"/>
 								<include syntax="language-root.css" collection="properties"/>
 								<include syntax="language-root.css.scss" collection="at-rule-include"/>
+								<include syntax="language-root.css.scss" collection="at-rule-extend"/>
 								<include syntax="language-root.css.scss" collection="at-rule-warn"/>
 								<include syntax="language-root.css.scss" collection="at-rule-debug"/>
 								<zone name="property-list.block.css">
@@ -101,6 +105,7 @@
 										<include syntax="language-root.css" collection="comments"/>
 										<include syntax="language-root.css" collection="properties"/>
 										<include syntax="language-root.css.scss" collection="at-rule-include"/>
+										<include syntax="language-root.css.scss" collection="at-rule-extend"/>
 										<include syntax="language-root.css.scss" collection="at-rule-warn"/>
 										<include syntax="language-root.css.scss" collection="at-rule-debug"/>
 										<zone name="selector.css">

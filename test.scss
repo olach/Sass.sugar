@@ -16,6 +16,7 @@ $something: 10px !default;
 	color: function($hue: 0, $saturation: 100%, $lightness: 50%);
 	@include mixin-inside-block(10px, something 'ghjgh' #45f rgb(210, 100, 20));
 	@include another-mixin;
+	@extend .class;
 	
 	@if $type == ocean {
 		color: blue;
@@ -37,9 +38,10 @@ $something: 10px !default;
 		@include another-mixin;
 		background-image: url('somewhere');
 		@include mixin-inside-block(10px, something 'ghjgh' #45f rgb(210, 100, 20));
+		@extend .class;
 		
 		.too-much-nesting {
-			
+			@extend .class;
 		}
 		
 		@for $i from 1 through 3 {
