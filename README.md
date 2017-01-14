@@ -1,3 +1,5 @@
+*(Deprecated. Espresso 3 supports Sass syntax out of the box.)*
+
 # SCSS (Sass) Sugar for Espresso 2
 
 ## Features (Work in progress)
@@ -24,10 +26,7 @@ This Sugar is incomplete, but it's better than nothing. Here is what is currentl
 ## Installation
 
 1. Download the zip
-2. Extract said zip
-3. Rename folder to .sugar
-4. Double click the .sugar file
-5. Restart Espresso - voila!
+2. Double click the Sass.sugar file
 
 ## Who did this?
 
